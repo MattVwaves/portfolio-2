@@ -1,7 +1,14 @@
 import './App.css';
 import PatchesVideo from './assets/videos/tfa-patches-video_HB.mp4';
+import { useState } from 'react';
 
 function App() {
+  const [showEmail, setShowEmail] = useState(false);
+  const [emailText, setEmailText] = useState(' -- -- ----- ----- --- -- -');
+
+  const handleShowEmail = () => {
+    setShowEmail(!showEmail);
+  };
   return (
     <>
       <div className="header">
@@ -37,10 +44,16 @@ function App() {
                 src={require('./assets/email2.png')}
                 height="25px"
                 alt="email-icon"
+                onClick={handleShowEmail}
               />
             </span>
           </li>
         </ul>
+        {showEmail && (
+          <div>
+            <p className="email">jamesmattholt@gmail.com</p>
+          </div>
+        )}
 
         <ul className="photo-skills">
           <li>

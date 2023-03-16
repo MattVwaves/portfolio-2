@@ -36,8 +36,8 @@ h5 {
 
 .title {
   width: fit-content;
-  border-width: 0px 0px 1px 1px;
-  border-style: dashed dotted;
+  /* border-width: 0px 0px 1px 1px;
+  border-style: dashed dotted; */
   border-color: black;
 }
 
@@ -48,12 +48,12 @@ h5 {
 }
 
 .title,
-#projects-title,
-.repo-link a {
-  color: yellow;
-  -webkit-text-stroke-width: 0.5px;
+#projects-title {
+  background-color: yellow;
+  /* color: yellow; */
+  /* -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
-  letter-spacing: 2px;
+  letter-spacing: 2px; */
 }
 
 #projects-title {
@@ -71,6 +71,28 @@ h5 {
 
 .social-email li {
   margin-top: 5px;
+}
+
+.email {
+  position: relative;
+  padding: 7px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  letter-spacing: 3px;
+  overflow: hidden;
+}
+.email:after {
+  content: '';
+  position: absolute;
+  margin: -20px;
+  width: 400px;
+  height: 40px;
+  transform: rotate(45deg);
+  background-color: #000;
+  box-shadow: 0 0 0 250px #522d5b;
+  filter: opacity(50%);
 }
 
 .photo-skills {
