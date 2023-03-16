@@ -8,6 +8,11 @@ li {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* #skills-icon {
   text-align: left;
   padding-right: 10px;
@@ -52,6 +57,22 @@ h5 {
   height: 100px;
   width: 80px;
   margin: 5px;
+  border-radius: 10px 10px 10px 20px;
+  filter: invert(100%);
+}
+
+#photo-matt-inv {
+  padding: 5px;
+  object-fit: contain;
+  height: 100px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 40px 10px 10px 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  filter: opacity(75%);
+  background-color: transparent !important;
 }
 
 /* projects */
@@ -59,6 +80,13 @@ h5 {
 #projects-title,
 #project-title {
   margin: 10px;
+}
+
+.project-title-container {
+  width: fit-content;
+  border-style: dashed;
+  border-width: 1px 0px 0px 0px;
+  padding-top: 5px;
 }
 
 #project-title {
@@ -71,23 +99,52 @@ h5 {
 
 .video-container {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 250px 110px;
   padding: 10px 0px 0px 20px;
+  overflow: hidden;
 }
 
 video {
-  width: 200px;
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  /* border-style: dashed; */
 }
 
 .sections-container {
   display: grid;
-  gap: 10px;
-  grid-auto-rows: 1fr 1fr 1fr;
+  /* gap: 5px; */
+  grid-auto-rows: 1fr 1fr;
   height: 90%;
   margin: 10px;
 }
 
-.tfa-section {
-  padding: 5px;
-  background-color: black;
+.video-container a {
+  display: block;
+}
+
+.repo-links-container {
+  display: grid;
+  grid-auto-rows: 140px 1fr;
+  row-gap: 0;
+}
+
+.repo-links {
+  text-align: center;
+  border-style: solid dashed;
+  border-width: 0px 0px 1px 1px;
+  height: fit-content;
+}
+
+.repo-link {
+  margin-bottom: 10px;
+}
+
+.repo-links a {
+  margin-bottom: 5px;
+}
+
+.repo-links-under {
+  border-style: dashed;
+  border-width: 0px 0px 0px 1px;
 }
