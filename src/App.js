@@ -26,7 +26,7 @@ function App() {
             <a href="https://github.com/MattVwaves">
               <img
                 src={require('./assets/linkd.png')}
-                height="35px"
+                height="30px"
                 alt="linkedIn-icon"
               />
             </a>
@@ -35,7 +35,7 @@ function App() {
             <span>
               <img
                 src={require('./assets/email2.png')}
-                height="30px"
+                height="25px"
                 alt="email-icon"
               />
             </span>

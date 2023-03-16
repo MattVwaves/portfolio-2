@@ -34,8 +34,36 @@ h5 {
   height: 140px;
 }
 
+.title {
+  width: fit-content;
+  border-width: 0px 0px 1px 1px;
+  border-style: dashed dotted;
+  border-color: black;
+}
+
+.title,
+.profession,
+#projects-title {
+  padding: 5px;
+}
+
+.title,
+#projects-title,
+.repo-link a {
+  color: yellow;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 2px;
+}
+
+#projects-title {
+  border-width: 1px 0px 0px 1px;
+  border-style: dotted dashed;
+  border-color: black;
+}
+
 .social-email {
-  margin: 5px;
+  margin: 5px 5px 5px 12px;
   position: fixed;
   top: 0;
   left: 0;
@@ -138,6 +166,7 @@ video {
 
 .repo-link {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .repo-links a {
