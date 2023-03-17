@@ -36,8 +36,8 @@ h5 {
 
 .title {
   width: fit-content;
-  /* border-width: 0px 0px 1px 1px;
-  border-style: dashed dotted; */
+  border-width: 0px 0px 1px 1px;
+  border-style: dashed dotted;
   border-color: black;
 }
 
@@ -87,7 +87,7 @@ h5 {
   content: '';
   position: absolute;
   margin: -20px;
-  width: 400px;
+  width: 500px;
   height: 40px;
   transform: rotate(45deg);
   background-color: #000;
@@ -188,7 +188,7 @@ video {
 
 .repo-link {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .repo-links a {
@@ -198,4 +198,13 @@ video {
 .repo-links-under {
   border-style: dashed;
   border-width: 0px 0px 0px 1px;
+}
+
+.skills-list-container {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.skill-icon {
+  height: 40px;
 }

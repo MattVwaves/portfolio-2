@@ -1,13 +1,25 @@
 import './App.css';
 import PatchesVideo from './assets/videos/tfa-patches-video_HB.mp4';
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+  faNodeJs,
+} from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   const [showEmail, setShowEmail] = useState(false);
   const [emailText, setEmailText] = useState(' -- -- ----- ----- --- -- -');
+  const [showSkills, setShowSkills] = useState(false);
 
   const handleShowEmail = () => {
     setShowEmail(!showEmail);
+  };
+  const handleShowSkills = () => {
+    setShowSkills(!showSkills);
   };
   return (
     <>
@@ -75,8 +87,53 @@ function App() {
               src={require('./assets/skills.jpeg')}
               height="40px"
               alt="skills"
+              onClick={handleShowSkills}
             />
           </li>
+          {showSkills && (
+            <ul className="skills-list-container">
+              <li>
+                <FontAwesomeIcon icon={faHtml5} className="skill-icon" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCss3Alt} className="skill-icon" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faJs} className="skill-icon" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faReact} className="skill-icon" />
+              </li>
+              <li>
+                <img
+                  src={require('./assets/nodejs.png')}
+                  className="skill-icon"
+                  alt="node-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src={require('./assets/express-logo-2.png')}
+                  className="skill-icon"
+                  alt="express-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src={require('./assets/prisma.png')}
+                  className="skill-icon"
+                  alt="prisma-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src={require('./assets/postgres2.png')}
+                  className="skill-icon"
+                  alt="postgres-icon"
+                />
+              </li>
+            </ul>
+          )}
         </ul>
       </div>
 
