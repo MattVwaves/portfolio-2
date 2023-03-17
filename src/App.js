@@ -13,7 +13,9 @@ function App() {
   return (
     <>
       <Header />
-      <h3 id="projects-title">Projects</h3>
+      <div className="projects-title-container">
+        <h3 id="projects-title">Projects</h3>
+      </div>
 
       <div className="outer-projects-container">
         <div className="projects-container">

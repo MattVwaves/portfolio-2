@@ -13,6 +13,13 @@ a {
   color: black;
 }
 
+a:hover,
+span:hover,
+#skills-icon:hover {
+  filter: opacity(50%);
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3 {
@@ -119,25 +126,48 @@ h5 {
 /* projects */
 
 .outer-projects-container {
-  margin: auto;
-  width: 100vw;
+  text-align: center;
 }
 
 .projects-container {
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100vw;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+}
+
+.projects-title-container {
+  width: fit-content;
+  font-size: 30px;
+}
+
+#projects-title {
+}
+
+@media only screen and (max-width: 900px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   .projects-container {
     grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .projects-title-container {
+    margin: 0px;
+  }
+  #photo-matt,
+  #photo-matt-inv {
+    height: 100px;
+    width: 80px;
   }
 }
 
 .project-container {
   margin-top: 20px;
+  width: fit-content;
 }
 
 #that-french-artist {
