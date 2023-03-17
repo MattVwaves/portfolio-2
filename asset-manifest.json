@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.e0303cb0.css",
-    "main.js": "/portfolio-2/static/js/main.3e82fccb.js",
+    "main.css": "/portfolio-2/static/css/main.46007794.css",
+    "main.js": "/portfolio-2/static/js/main.c5d227a5.js",
     "static/js/787.ebaef199.chunk.js": "/portfolio-2/static/js/787.ebaef199.chunk.js",
     "static/media/close-me-bw.jpg": "/portfolio-2/static/media/close-me-bw.7a7f4eac46db5f58534e.jpg",
     "static/media/tfa-patches-video_HB.mp4": "/portfolio-2/static/media/tfa-patches-video_HB.3b59634eb3a7193faa69.mp4",
@@ -16,12 +16,12 @@
     "static/media/skills.jpeg": "/portfolio-2/static/media/skills.5a1807e6cc2125d63202.jpeg",
     "static/media/email2.png": "/portfolio-2/static/media/email2.8245f4a7ec9f662678e3.png",
     "index.html": "/portfolio-2/index.html",
-    "main.e0303cb0.css.map": "/portfolio-2/static/css/main.e0303cb0.css.map",
-    "main.3e82fccb.js.map": "/portfolio-2/static/js/main.3e82fccb.js.map",
+    "main.46007794.css.map": "/portfolio-2/static/css/main.46007794.css.map",
+    "main.c5d227a5.js.map": "/portfolio-2/static/js/main.c5d227a5.js.map",
     "787.ebaef199.chunk.js.map": "/portfolio-2/static/js/787.ebaef199.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0303cb0.css",
-    "static/js/main.3e82fccb.js"
+    "static/css/main.46007794.css",
+    "static/js/main.c5d227a5.js"
   ]
 }
