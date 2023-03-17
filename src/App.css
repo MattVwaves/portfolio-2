@@ -50,10 +50,6 @@ h5 {
 .title,
 #projects-title {
   background-color: yellow;
-  /* color: yellow; */
-  /* -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-  letter-spacing: 2px; */
 }
 
 #projects-title {
@@ -127,6 +123,10 @@ h5 {
 
 /* projects */
 
+.project-container {
+  margin-top: 20px;
+}
+
 #projects-title,
 #project-title {
   margin: 10px;
@@ -147,11 +147,44 @@ h5 {
   display: inline;
 }
 
+.project-details-popup {
+  position: absolute;
+  margin: 10px 0px 0px 20px;
+  background-color: red;
+  width: 250px;
+}
+
+.project-details-popup:after {
+  content: '';
+  position: absolute;
+  /* margin: -40px; */
+  width: 200px;
+  height: 40px;
+  transform: rotate(10deg);
+  background-color: red;
+  box-shadow: 0 0 0 250px #522d5b;
+  filter: opacity(10%);
+}
+
+.project-details-popup p {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+}
+
 .video-container {
   display: grid;
   grid-template-columns: 250px 110px;
   padding: 10px 0px 0px 20px;
   overflow: hidden;
+}
+
+.video-container img {
+  object-fit: contain;
+}
+
+#cover {
+  object-fit: cover;
 }
 
 video {
