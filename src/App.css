@@ -1,6 +1,6 @@
 * {
   list-style: none;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
 }
 
@@ -12,11 +12,6 @@ a {
   text-decoration: none;
   color: black;
 }
-
-/* #skills-icon {
-  text-align: left;
-  padding-right: 10px;
-} */
 
 h1,
 h2,
@@ -123,8 +118,29 @@ h5 {
 
 /* projects */
 
+.outer-projects-container {
+  margin: auto;
+  width: 100vw;
+}
+
+.projects-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-container {
   margin-top: 20px;
+}
+
+#that-french-artist {
 }
 
 #projects-title,
