@@ -8,6 +8,7 @@ import ProjectTitleContainer from './components/ProjectTitleContainer';
 import TFAInfo from './components/TFAInfo';
 import PSInfo from './components/PSInfo';
 import PFInfo from './components/PFInfo';
+import SocialList from './components/SocialList';
 
 function App() {
   return (
@@ -37,8 +38,13 @@ function App() {
               title="That French Artist"
             />
             <div className="video-container">
-              <video controls>
-                <source src={PatchesVideo} type="video/mp4" />
+              <video
+                controls
+                playsinline
+                muted
+                poster={require('./assets/tfa-poster.png')}
+              >
+                <source src={`${PatchesVideo}#t=0.001`} type="video/mp4" />
               </video>
               <RepoLinks
                 clientUrl="https://github.com/MattVwaves/That-French-Artist-Client"
@@ -51,7 +57,7 @@ function App() {
             <ProjectTitleContainer info={<PSInfo />} title="Pop Sheister" />
             <div className="video-container">
               <img
-                width="250px"
+                width="313px"
                 height="350px"
                 src={require('./assets/pop-sheister-1.png')}
                 alt="pop-shiester-img"
@@ -68,9 +74,9 @@ function App() {
             <ProjectTitleContainer info={<PFInfo />} title="Portfolio" />
             <div className="video-container">
               <img
-                width="250px"
-                height="350px"
-                src={require('./assets/portfolio-grab-2.png')}
+                width="313px"
+                height="300px"
+                src={require('./assets/portfolio-2-update-2.png')}
                 alt="pop-shiester-img"
               />
               <RepoLinks clientUrl="https://github.com/MattVwaves/portfolio-2" />

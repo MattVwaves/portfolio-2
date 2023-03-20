@@ -22,6 +22,7 @@ export default function SocialList({ handleShowEmail }) {
       <li>
         <span>
           <img
+            id="email-icon"
             src={require('../assets/email2.png')}
             height="25px"
             alt="email-icon"
