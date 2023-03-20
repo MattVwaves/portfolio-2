@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.46007794.css",
-    "main.js": "/portfolio-2/static/js/main.c5d227a5.js",
+    "main.css": "/portfolio-2/static/css/main.229a99fe.css",
+    "main.js": "/portfolio-2/static/js/main.a4786f0c.js",
     "static/js/787.ebaef199.chunk.js": "/portfolio-2/static/js/787.ebaef199.chunk.js",
     "static/media/close-me-bw.jpg": "/portfolio-2/static/media/close-me-bw.7a7f4eac46db5f58534e.jpg",
+    "static/media/me-pointing.jpg": "/portfolio-2/static/media/me-pointing.e4ff4a988fc41f1e799e.jpg",
     "static/media/tfa-patches-video_HB.mp4": "/portfolio-2/static/media/tfa-patches-video_HB.3b59634eb3a7193faa69.mp4",
     "static/media/express-logo-2.png": "/portfolio-2/static/media/express-logo-2.a5d70f894ee64b69541c.png",
     "static/media/portfolio-grab-2.png": "/portfolio-2/static/media/portfolio-grab-2.4dfd84ce53f0d575d34c.png",
@@ -16,12 +17,12 @@
     "static/media/skills.jpeg": "/portfolio-2/static/media/skills.5a1807e6cc2125d63202.jpeg",
     "static/media/email2.png": "/portfolio-2/static/media/email2.8245f4a7ec9f662678e3.png",
     "index.html": "/portfolio-2/index.html",
-    "main.46007794.css.map": "/portfolio-2/static/css/main.46007794.css.map",
-    "main.c5d227a5.js.map": "/portfolio-2/static/js/main.c5d227a5.js.map",
+    "main.229a99fe.css.map": "/portfolio-2/static/css/main.229a99fe.css.map",
+    "main.a4786f0c.js.map": "/portfolio-2/static/js/main.a4786f0c.js.map",
     "787.ebaef199.chunk.js.map": "/portfolio-2/static/js/787.ebaef199.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46007794.css",
-    "static/js/main.c5d227a5.js"
+    "static/css/main.229a99fe.css",
+    "static/js/main.a4786f0c.js"
   ]
 }
