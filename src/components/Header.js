@@ -30,17 +30,16 @@ export default function Header() {
       <ul className="photo-skills">
         <li>
           <img
-            id="photo-matt"
             src={require('../assets/close-me-bw.jpg')}
-            height="150px"
-            alt="photo-matt"
+            alt="matt"
+            id="photo-matt"
           />
-          <img
+          {/* <img
             id="photo-matt-inv"
             src={require('../assets/close-me-bw.jpg')}
             height="150px"
             alt="photo-matt"
-          />
+          /> */}
         </li>
         <li id="skills-icon">
           <img

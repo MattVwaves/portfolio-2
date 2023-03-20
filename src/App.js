@@ -12,6 +12,18 @@ import PFInfo from './components/PFInfo';
 function App() {
   return (
     <>
+      <img
+        id="bg-img"
+        src={require('./assets/me-pointing.jpg')}
+        alt="bg-img"
+        height="500px"
+      />
+      <img
+        id="bg-img-2"
+        src={require('./assets/close-me-bw.jpg')}
+        alt="bg-img"
+        height="500px"
+      />
       <Header />
       <div className="projects-title-container">
         <h3 id="projects-title">Projects</h3>
@@ -36,7 +48,7 @@ function App() {
           </div>
 
           <div className="project-container">
-            <ProjectTitleContainer info={<PSInfo />} title="Pop Shiester" />
+            <ProjectTitleContainer info={<PSInfo />} title="Pop Sheister" />
             <div className="video-container">
               <img
                 width="250px"
