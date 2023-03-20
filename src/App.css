@@ -289,8 +289,8 @@ h5 {
 }
 
 video {
-  width: 313px;
-  height: 438px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   /* z-index: 1; */
 }
