@@ -13,6 +13,11 @@ import SocialList from './components/SocialList';
 function App() {
   return (
     <>
+      <meta
+        meta
+        name="viewport"
+        content="width=device-width, user-scalable=no"
+      />
       <img
         id="bg-img"
         src={require('./assets/me-pointing.jpg')}
@@ -32,7 +37,7 @@ function App() {
 
       <div className="outer-projects-container">
         <div className="projects-container">
-          <div className="project-container" id="that-french-artist">
+          <div className="project-container">
             <ProjectTitleContainer
               info={<TFAInfo />}
               title="That French Artist"
@@ -42,6 +47,7 @@ function App() {
                 controls
                 playsinline
                 muted
+                autoplay
                 poster={require('./assets/tfa-poster.png')}
               >
                 <source src={`${PatchesVideo}#t=0.001`} type="video/mp4" />
@@ -57,8 +63,8 @@ function App() {
             <ProjectTitleContainer info={<PSInfo />} title="Pop Sheister" />
             <div className="video-container">
               <img
-                width="313px"
-                height="350px"
+                width="100%"
+                height="300px"
                 src={require('./assets/pop-sheister-1.png')}
                 alt="pop-shiester-img"
                 id="cover"
@@ -74,7 +80,7 @@ function App() {
             <ProjectTitleContainer info={<PFInfo />} title="Portfolio" />
             <div className="video-container">
               <img
-                width="313px"
+                width="100%"
                 height="300px"
                 src={require('./assets/portfolio-2-update-2.png')}
                 alt="pop-shiester-img"

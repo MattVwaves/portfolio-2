@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+body {
+  width: 100vw;
+}
+
 li {
   text-align: center;
 }
@@ -252,7 +256,7 @@ h5 {
   position: absolute;
   margin: 13px 0px 0px 25px;
   background-color: red;
-  width: 313px;
+  width: 250px;
 }
 
 .project-details-popup:after {
@@ -275,9 +279,12 @@ h5 {
 
 .video-container {
   display: grid;
-  grid-template-columns: 313px 138px;
+  grid-template-columns: 250px 1fr;
+  column-gap: 20px;
+  text-align: center;
   padding: 13px 0px 0px 25px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 .video-container img {
@@ -292,6 +299,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* z-index: 1; */
 }
 
 .sections-container {
@@ -321,7 +329,7 @@ video {
 
 .repo-link {
   margin-bottom: 13px;
-  font-size: 19px;
+  font-size: 12px;
 }
 
 .repo-links a {
