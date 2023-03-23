@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.ed7de206.css",
-    "main.js": "/portfolio-2/static/js/main.b15be807.js",
+    "main.css": "/portfolio-2/static/css/main.a0641bee.css",
+    "main.js": "/portfolio-2/static/js/main.0b868755.js",
     "static/js/787.ebaef199.chunk.js": "/portfolio-2/static/js/787.ebaef199.chunk.js",
     "static/media/close-me-bw.jpg": "/portfolio-2/static/media/close-me-bw.7a7f4eac46db5f58534e.jpg",
     "static/media/me-pointing.jpg": "/portfolio-2/static/media/me-pointing.e4ff4a988fc41f1e799e.jpg",
+    "static/media/TFA-tidy-demo_HB.mp4": "/portfolio-2/static/media/TFA-tidy-demo_HB.b706f8289ac2b39c1eff.mp4",
     "static/media/tfa-patches-video_HB.mp4": "/portfolio-2/static/media/tfa-patches-video_HB.3b59634eb3a7193faa69.mp4",
     "static/media/portfolio-2-update-2.png": "/portfolio-2/static/media/portfolio-2-update-2.c07e8a1f566bb42a08b5.png",
     "static/media/tfa-poster.png": "/portfolio-2/static/media/tfa-poster.132e926aac5bd81e633d.png",
@@ -18,12 +19,12 @@
     "static/media/skills.jpeg": "/portfolio-2/static/media/skills.5a1807e6cc2125d63202.jpeg",
     "static/media/email2.png": "/portfolio-2/static/media/email2.8245f4a7ec9f662678e3.png",
     "index.html": "/portfolio-2/index.html",
-    "main.ed7de206.css.map": "/portfolio-2/static/css/main.ed7de206.css.map",
-    "main.b15be807.js.map": "/portfolio-2/static/js/main.b15be807.js.map",
+    "main.a0641bee.css.map": "/portfolio-2/static/css/main.a0641bee.css.map",
+    "main.0b868755.js.map": "/portfolio-2/static/js/main.0b868755.js.map",
     "787.ebaef199.chunk.js.map": "/portfolio-2/static/js/787.ebaef199.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed7de206.css",
-    "static/js/main.b15be807.js"
+    "static/css/main.a0641bee.css",
+    "static/js/main.0b868755.js"
   ]
 }
