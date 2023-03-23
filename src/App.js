@@ -1,5 +1,6 @@
 import './App.css';
 import PatchesVideo from './assets/videos/tfa-patches-video_HB.mp4';
+import PatchesVideo2 from './assets/videos/TFA-tidy-demo_HB.mp4';
 
 import Header from './components/Header';
 import RepoLinks from './components/RepoLinks';
@@ -50,7 +51,7 @@ function App() {
                 autoplay
                 poster={require('./assets/tfa-poster.png')}
               >
-                <source src={`${PatchesVideo}#t=0.001`} type="video/mp4" />
+                <source src={`${PatchesVideo2}#t=0.001`} type="video/mp4" />
               </video>
               <RepoLinks
                 clientUrl="https://github.com/MattVwaves/That-French-Artist-Client"
