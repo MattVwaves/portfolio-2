@@ -1,8 +1,9 @@
 export default function PSInfo() {
   return (
     <p>
-      Online pop-song guessing game loosely inspired by BBC radio show 'Pop
-      Master'.
+      Online game utilising the lastfm and youtube APIs. Users play a series of
+      rounds to guess the title of a random song from a chosen decade. They can
+      then submit their scores to a leaderboard.
       <br />
       <br />
       Built with: React, Node, Express, PostgreSQL and Prisma

@@ -61,18 +61,18 @@ function App() {
           </div>
 
           <div className="project-container">
-            <ProjectTitleContainer info={<PSInfo />} title="Pop Sheister" />
+            <ProjectTitleContainer info={<PSInfo />} title="eyesong" />
             <div className="video-container">
               <img
                 width="100%"
                 height="300px"
-                src={require('./assets/pop-sheister-1.png')}
+                src={require('./assets/eyesong.png')}
                 alt="pop-shiester-img"
                 id="cover"
               />
               <RepoLinks
-                clientUrl="https://github.com/MattVwaves/Pop-Sheister"
-                serverUrl="https://github.com/MattVwaves/Pop-Sheister-server"
+                clientUrl="https://github.com/MattVwaves/eyesong-client"
+                serverUrl="https://github.com/MattVwaves/eyesong-server"
               />
             </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
               <img
                 width="100%"
                 height="300px"
-                src={require('./assets/portfolio-2-update-2.png')}
+                src={require('./assets/portnew.png')}
                 alt="pop-shiester-img"
               />
               <RepoLinks clientUrl="https://github.com/MattVwaves/portfolio-2" />
